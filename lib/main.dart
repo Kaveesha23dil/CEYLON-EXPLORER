@@ -12,13 +12,13 @@ void main() {
     DeviceOrientation.portraitDown,
   ]);
 
-  // Set system UI style
+  // Set system UI style — light background, dark icons
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
-      statusBarIconBrightness: Brightness.light,
-      systemNavigationBarColor: AppColors.background,
-      systemNavigationBarIconBrightness: Brightness.light,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarColor: AppColors.white,
+      systemNavigationBarIconBrightness: Brightness.dark,
     ),
   );
 
@@ -34,12 +34,12 @@ class CeylonExplorerApp extends StatelessWidget {
       title: 'Ceylon Explorer',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        scaffoldBackgroundColor: AppColors.background,
-        colorScheme: const ColorScheme.dark(
-          primary: AppColors.primary,
-          secondary: AppColors.accent,
-          surface: AppColors.background,
+        brightness: Brightness.light,
+        scaffoldBackgroundColor: AppColors.white,
+        colorScheme: const ColorScheme.light(
+          primary: AppColors.teal,
+          secondary: AppColors.yellowAccent,
+          surface: AppColors.white,
         ),
         fontFamily: 'Inter',
       ),

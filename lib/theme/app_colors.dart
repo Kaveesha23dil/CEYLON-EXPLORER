@@ -4,6 +4,26 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
+  /// Teal — primary brand color for titles & buttons
+  static const Color teal = Color(0xFF0D7C66);
+
+  /// Yellow/Golden accent — logo dot
+  static const Color yellowAccent = Color(0xFFE8A317);
+
+  /// Dark text color for logo
+  static const Color darkText = Color(0xFF1A1A1A);
+
+  /// Subtitle / description gray
+  static const Color subtitleGray = Color(0xFF6B6B6B);
+
+  /// White background
+  static const Color white = Color(0xFFFFFFFF);
+
+  /// Black
+  static const Color black = Color(0xFF000000);
+
+  // ── Legacy colors (kept for backward compat) ──
+
   /// Deep ocean blue — primary brand color
   static const Color primary = Color(0xFF0D3B6E);
 
@@ -12,12 +32,6 @@ class AppColors {
 
   /// Rich dark navy — splash background
   static const Color background = Color(0xFF05192D);
-
-  /// Pure black for initial fade
-  static const Color black = Color(0xFF000000);
-
-  /// White for text
-  static const Color white = Color(0xFFFFFFFF);
 
   /// Tagline white at 60% opacity
   static const Color taglineWhite = Color(0x99FFFFFF);

@@ -60,6 +60,7 @@ flutter:
   # Assets
   assets:
     - assets/fonts/
+    - assets/images/
 
   # Custom fonts for offline / bundled use
   fonts:
@@ -79,3 +80,5 @@ flutter:
           weight: 500
         - asset: assets/fonts/Inter-SemiBold.ttf
           weight: 600
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 700
